@@ -61,7 +61,7 @@ ifeq (True,$(HAS_CONDA))
 ifeq (3,$(findstring 3,$(PYTHON_INTERPRETER)))
 	conda create --name $(PROJECT_NAME) python=3
 else
-	conda create --name $(PROJECT_NAME) python=2.7
+	conda create --name $(PROJECT_NAME) python=3
 endif
 		@echo ">>> New conda env created. Activate with:\nsource activate $(PROJECT_NAME)"
 else
