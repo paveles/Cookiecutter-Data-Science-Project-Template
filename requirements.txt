@@ -3,20 +3,27 @@
 
 # my packages
 
-warnings
-math
-time
+
+#warnings
+#math
+#time
 datetime
 pandas
 numpy
-sys
-os
+#sys
+#os
 
-#* For Saving Models
-pickle
+# model_configs.py
+xgboost
 
-#* To Add Interaction Terms
+# walkforward_functions.py
 sklearn
+
+# visualize.py
+matplotlib
+seaborn
+
+# transform_cv.py
 
 
 # external requirements
