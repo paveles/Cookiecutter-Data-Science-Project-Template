@@ -3,19 +3,20 @@
 
 # my packages
 
-# math
-# time
-# warnings
-# sys
-# os
-# itertools
-
-matplotlib
+warnings
+math
+time
 datetime
 pandas
-numpy 
-seaborn
+numpy
+sys
+os
 
+#* For Saving Models
+pickle
+
+#* To Add Interaction Terms
+sklearn
 
 
 # external requirements
